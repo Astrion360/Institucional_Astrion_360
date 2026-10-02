@@ -146,3 +146,90 @@ a:focus-visible,summary:focus-visible{
   outline:2px solid var(--gold-soft);
   outline-offset:4px;
 }
+
+
+/* AJUSTES DE PROPORÇÃO E ALINHAMENTO INTERNO */
+.service-card:not(.service-wide),
+.references-grid article,
+.engagement-grid article{
+  display:flex;
+  flex-direction:column;
+}
+.service-card:not(.service-wide) h3{
+  min-height:54px;
+}
+.references-grid h3,
+.engagement-grid h3{
+  min-height:52px;
+}
+.service-card:not(.service-wide) p,
+.references-grid article p,
+.engagement-grid article p{
+  margin-bottom:0;
+}
+.person-card{
+  display:flex;
+  flex-direction:column;
+}
+.person-copy{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+}
+.person-copy .role{
+  min-height:34px;
+}
+.person-copy>p:last-of-type{
+  margin-top:auto;
+}
+
+/* Em telas touch, mantém resposta tátil sem depender de hover */
+@media (hover:none){
+  .pillars article:active,
+  .service-card:active,
+  .expertise-card:active,
+  .method-track article:active,
+  .references-grid article:active,
+  .person-card:active,
+  .engagement-grid article:active,
+  .contact-card:active{
+    transform:scale(.992);
+  }
+}
+
+/* Diagrama integrador realmente responsivo: não reduzimos o desktop inteiro no celular */
+@media(max-width:760px){
+  .integrator-diagram{
+    min-height:auto;
+    transform:none;
+    margin:0;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:10px;
+    place-items:stretch;
+  }
+  .integrator-diagram .core{
+    grid-column:1/-1;
+    position:relative;
+    justify-self:center;
+    width:180px;
+    height:180px;
+    margin-bottom:14px;
+  }
+  .integrator-diagram .node{
+    position:static;
+    width:auto;
+    min-width:0;
+    min-height:54px;
+  }
+  .integrator-diagram .node::after{
+    display:none;
+  }
+}
+@media(max-width:460px){
+  .integrator-diagram{
+    grid-template-columns:1fr;
+  }
+  .integrator-diagram .core{
+    grid-column:auto;
+  }
+}
