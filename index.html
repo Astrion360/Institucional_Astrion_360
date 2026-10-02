@@ -2,372 +2,232 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Astrion Assessoria — estruturação executiva de administradoras de consórcios, governança regulatória e execução integrada." />
-  <title>Astrion Assessoria | Estruturação Executiva de Administradoras de Consórcios</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#081725" />
+  <meta name="description" content="Astrion Assessoria — consultoria executiva e integradora de projetos complexos em seguros, resseguros, consórcios, tecnologia, BPO e negócios B2B." />
+  <title>Astrion Assessoria | Estratégia, estrutura técnica e execução</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="topbar">
-    <a class="brand" href="#capa" aria-label="Astrion Assessoria — início">
-      <img src="assets/astrion-logo.png" alt="Astrion Assessoria" />
-    </a>
-    <nav class="nav" aria-label="Navegação principal">
-      <a href="#astrion">Astrion</a>
-      <a href="#framework">Framework</a>
-      <a href="#equipe">Equipe</a>
-      <a href="#governanca">Governança</a>
-      <a href="#modelos">Modelos</a>
-      <a href="#fechamento">Contato</a>
-    </nav>
-    <span class="confidential">Institucional • 2026</span>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Astrion Assessoria — início">
+        <img src="assets/astrion-logo.png" alt="Astrion Assessoria" />
+      </a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#astrion">Astrion</a>
+        <a href="#atuacao">Atuação</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#metodo">Como atuamos</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#contratacao">Contratação</a>
+      </nav>
+      <a class="header-cta" href="#contato">Fale com a Astrion</a>
+      <details class="mobile-nav">
+        <summary aria-label="Abrir menu"><span></span><span></span><span></span></summary>
+        <div class="mobile-panel">
+          <a href="#astrion">Astrion</a>
+          <a href="#atuacao">Atuação</a>
+          <a href="#especialidades">Especialidades</a>
+          <a href="#metodo">Como atuamos</a>
+          <a href="#equipe">Equipe</a>
+          <a href="#contratacao">Contratação</a>
+          <a class="mobile-cta" href="#contato">Fale com a Astrion</a>
+        </div>
+      </details>
+    </div>
   </header>
 
-  <main class="deck">
-    <!-- 01 CAPA -->
-    <section class="slide hero" id="capa" data-index="01">
-      <div class="hero-grid">
-        <div class="hero-copy reveal">
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-grid container">
+        <div class="hero-copy">
           <span class="eyebrow">ASTRION ASSESSORIA</span>
-          <h1>Estruturação Executiva<br />de Administradoras<br />de Consórcios</h1>
-          <p class="hero-sub">Autoridade técnica, governança regulatória e execução real.</p>
-          <div class="hero-meta">
-            <span>Estratégia</span><i></i><span>PMO Global</span><i></i><span>Regulatório</span><i></i><span>Tecnologia</span><i></i><span>Operação</span>
+          <h1>Estratégia, estrutura técnica e execução para negócios de alta complexidade.</h1>
+          <p>A Astrion combina visão executiva, profundidade técnica e gestão integrada para estruturar, implantar e evoluir negócios em seguros, resseguros, consórcios, serviços financeiros, tecnologia e operações B2B.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="#atuacao">Conheça nossa atuação</a>
+            <a class="btn btn-ghost" href="#equipe">Nossa equipe</a>
           </div>
         </div>
-        <div class="hero-mark reveal delay-1" aria-hidden="true">
-          <div class="orbit orbit-a"></div>
-          <div class="orbit orbit-b"></div>
-          <div class="hero-logo-panel">
-            <img src="assets/astrion-logo.png" alt="" />
-          </div>
-          <span class="micro-note">Tese → estrutura → autorização → operação</span>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-emblem"><img src="assets/astrion-logo.png" alt="" /></div>
+          <div class="hero-orbit orbit-1"></div>
+          <div class="hero-orbit orbit-2"></div>
+          <div class="hero-index"><span>01</span><small>Diagnóstico</small></div>
+          <div class="hero-index idx-2"><span>02</span><small>Estruturação</small></div>
+          <div class="hero-index idx-3"><span>03</span><small>Implantação</small></div>
         </div>
       </div>
-      <footer class="slide-footer"><span>Astrion Assessoria</span><span>Estruturação executiva de negócios regulados</span></footer>
+      <div class="hero-capabilities">
+        <div class="container capability-row">
+          <div><small>VISÃO</small><strong>Executiva e integrada</strong></div>
+          <div><small>MODELO</small><strong>Advisory + execução</strong></div>
+          <div><small>GOVERNANÇA</small><strong>PMO e especialistas</strong></div>
+          <div><small>DECISÃO</small><strong>Dados e viabilidade</strong></div>
+          <div><small>ENTREGA</small><strong>Do desenho à operação</strong></div>
+        </div>
+      </div>
     </section>
 
-    <!-- 02 QUEM SOMOS -->
-    <section class="slide light" id="astrion" data-index="02">
-      <div class="section-head">
-        <div><span class="eyebrow">QUEM É A ASTRION</span><h2>Uma plataforma executiva para transformar tese em operação regulada.</h2></div>
-        <p class="lead">A Astrion integra estratégia, Business Plan, jurídico-regulatório, capital, tecnologia, produtos, operação e governança sob uma única lógica de execução.</p>
+    <section class="section section-light" id="astrion">
+      <div class="container two-col intro-grid">
+        <div class="section-title">
+          <span class="eyebrow">QUEM SOMOS</span>
+          <h2>Uma consultoria executiva que assume responsabilidade pela integração do projeto.</h2>
+        </div>
+        <div class="section-copy">
+          <p class="lead">A Astrion não atua como uma consultoria genérica ou restrita à recomendação. Estruturamos decisões, coordenamos disciplinas e apoiamos a execução com governança, método e profundidade técnica.</p>
+          <p>Nossa atuação conecta estratégia, produtos, modelagem financeira, jurídico e regulatório, tecnologia, dados, operações, canais, riscos e especialistas externos ou internos do cliente em uma arquitetura única de projeto.</p>
+        </div>
       </div>
-      <div class="positioning-grid">
-        <article class="statement-card dark-card">
-          <span class="label">POSICIONAMENTO INSTITUCIONAL</span>
-          <h3>Autoridade técnica em estruturação de administradoras de consórcios, com atuação complementar em seguros, resseguros e negócios regulados.</h3>
-          <p>Posicionamento institucional sustentado por experiência setorial, liderança executiva multidisciplinar e capacidade concreta de coordenar projetos regulados de alta complexidade.</p>
+      <div class="container pillars">
+        <article><span>01</span><h3>Estruturar</h3><p>Transformar oportunidades e problemas em arquitetura de negócio, premissas e plano executável.</p></article>
+        <article><span>02</span><h3>Integrar</h3><p>Conectar áreas, especialistas, fornecedores e decisões sob uma governança única.</p></article>
+        <article><span>03</span><h3>Implantar</h3><p>Converter desenho em operação, controlando marcos, riscos, dependências e critérios de aceite.</p></article>
+        <article><span>04</span><h3>Evoluir</h3><p>Acompanhar performance, recalibrar hipóteses e sustentar crescimento com dados e disciplina.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-navy" id="atuacao">
+      <div class="container section-heading inverse">
+        <div><span class="eyebrow">O QUE FAZEMOS</span><h2>Sete frentes de serviço conectadas por uma única lógica de execução.</h2></div>
+        <p>As frentes podem ser contratadas isoladamente ou combinadas em programas mais amplos, conforme a complexidade do objetivo e o nível de integração exigido.</p>
+      </div>
+      <div class="container services-grid">
+        <article class="service-card"><b>01</b><h3>Assessoria de Consórcios</h3><p>Estratégia, produtos, canais, Business Plan, operação, governança e estruturação de novas operações.</p></article>
+        <article class="service-card"><b>02</b><h3>Produtos de Seguros</h3><p>Concepção, subscrição, pricing, coberturas, jornada, risco, distribuição e viabilidade.</p></article>
+        <article class="service-card"><b>03</b><h3>Produtos de Resseguro</h3><p>Arquitetura de programas, modelagem, contratos, negociação, monitoramento e recuperação.</p></article>
+        <article class="service-card"><b>04</b><h3>Consultoria Empresarial</h3><p>Estratégia, desenho operacional, eficiência, governança e implantação de iniciativas prioritárias.</p></article>
+        <article class="service-card"><b>05</b><h3>Consultoria Tecnológica</h3><p>Arquitetura, integrações, automação, dados, BI, sistemas, fornecedores e transformação digital.</p></article>
+        <article class="service-card"><b>06</b><h3>BPO</h3><p>Capacidade adicional, desenho de processos, operação assistida, indicadores, controles e melhoria contínua.</p></article>
+        <article class="service-card service-wide"><b>07</b><h3>Serviços B2B</h3><p>Originação, desenho de ecossistemas, canais, parcerias, distribuição, produtos e implantação comercial B2B/B2B2C.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-light" id="especialidades">
+      <div class="container section-heading">
+        <div><span class="eyebrow">ESPECIALIDADES</span><h2>Profundidade setorial onde estratégia e operação precisam conversar.</h2></div>
+        <p>A Astrion concentra conhecimento em ambientes regulados e em modelos que exigem coordenação entre risco, produto, tecnologia, capital, operação e distribuição.</p>
+      </div>
+      <div class="container expertise-grid">
+        <article class="expertise-card featured"><span>CONSÓRCIOS</span><h3>Estruturação, produtos, carteira, canais e implantação.</h3><p>Uma das frentes de maior profundidade da Astrion, incluindo desenho de modelos próprios e white label, Business Plan, riscos, tecnologia, operação e governança regulatória.</p><ul><li>Novas administradoras e operações</li><li>Produtos e canais de distribuição</li><li>Modelagem econômica e viabilidade</li><li>Operação, tecnologia e governança</li></ul></article>
+        <article class="expertise-card"><span>SEGUROS</span><h3>Produto, subscrição e resultado técnico.</h3><p>Desenvolvimento de produtos, análise de risco, precificação, sinistros, operações, distribuição e acompanhamento de carteira.</p></article>
+        <article class="expertise-card"><span>RESSEGUROS</span><h3>Risco, capacidade e proteção de capital.</h3><p>Estruturação de programas proporcionais e não proporcionais, modelagem, negociação, contratos, monitoramento e recuperações.</p></article>
+        <article class="expertise-card"><span>SERVIÇOS FINANCEIROS & B2B</span><h3>Novos negócios e ecossistemas de distribuição.</h3><p>Modelos B2B/B2B2C, canais, parcerias, produtos financeiros, dados e integração entre originadores, operadores e distribuidores.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-graphite" id="metodo">
+      <div class="container section-heading inverse">
+        <div><span class="eyebrow">COMO ATUAMOS</span><h2>Um método único do diagnóstico à estabilização.</h2></div>
+        <p>O nível de profundidade varia por projeto, mas a disciplina é constante: hipótese clara, evidência, governança, responsáveis, dependências e critérios de aceite.</p>
+      </div>
+      <div class="container method-track">
+        <article><b>01</b><h3>Diagnóstico</h3><p>Objetivo, contexto, dados, estrutura atual, restrições e decisões críticas.</p></article>
+        <article><b>02</b><h3>Modelagem</h3><p>Tese, cenários, Business Plan, viabilidade, riscos e premissas executivas.</p></article>
+        <article><b>03</b><h3>Arquitetura</h3><p>Modelo operacional, produtos, processos, tecnologia, governança e responsabilidades.</p></article>
+        <article><b>04</b><h3>Estruturação</h3><p>Planos de trabalho por frente, fornecedores, requisitos, políticas e documentação.</p></article>
+        <article><b>05</b><h3>Implantação</h3><p>Build, configuração, contratação, integração, testes, readiness e preparação do go-live.</p></article>
+        <article><b>06</b><h3>Estabilização</h3><p>Hypercare, indicadores, correções, transferência de conhecimento e governança permanente.</p></article>
+      </div>
+      <div class="container governance-bar">
+        <div><small>CONTROLE</small><strong>Marcos e cronograma</strong></div>
+        <div><small>RISCO</small><strong>Issues e dependências</strong></div>
+        <div><small>QUALIDADE</small><strong>Critérios de aceite</strong></div>
+        <div><small>DECISÃO</small><strong>Fóruns executivos</strong></div>
+        <div><small>TRANSPARÊNCIA</small><strong>Reporte e evidências</strong></div>
+      </div>
+    </section>
+
+    <section class="section section-light integrator-section">
+      <div class="container integrator-grid">
+        <div class="section-title"><span class="eyebrow">ASTRION COMO INTEGRADORA</span><h2>Uma única governança para disciplinas que normalmente operam separadas.</h2><p class="lead">A Astrion assume a coordenação executiva e organiza a interação entre cliente, especialistas, fornecedores e frentes técnicas.</p></div>
+        <div class="integrator-diagram" aria-label="Modelo de integração Astrion">
+          <div class="core"><img src="assets/astrion-logo.png" alt="Astrion" /><span>PMO & integração</span></div>
+          <div class="node n1">Estratégia</div><div class="node n2">Financeiro</div><div class="node n3">Jurídico & Reg.</div><div class="node n4">Tecnologia</div><div class="node n5">Operações</div><div class="node n6">Produtos</div><div class="node n7">Canais</div><div class="node n8">Dados & Riscos</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="referencias">
+      <div class="container section-heading">
+        <div><span class="eyebrow">EXPERIÊNCIA APLICÁVEL</span><h2>Competências construídas em ambientes reais, preservando confidencialidade.</h2></div>
+        <p>Os exemplos abaixo descrevem tipos de experiência e capacidade da equipe sem divulgar informações contratuais ou dados de clientes.</p>
+      </div>
+      <div class="container references-grid">
+        <article><span>01</span><h3>Projetos regulados</h3><p>Estruturação de frentes jurídicas, financeiras, operacionais e de governança para negócios sujeitos à supervisão regulatória.</p></article>
+        <article><span>02</span><h3>Produtos massificados</h3><p>Desenvolvimento, pricing, risco, jornadas, processos e distribuição em seguros e serviços financeiros.</p></article>
+        <article><span>03</span><h3>Programas de resseguro</h3><p>Modelagem, negociação, contratos, exposição, monitoramento e recuperação em ambientes seguradores de grande porte.</p></article>
+        <article><span>04</span><h3>Transformação tecnológica</h3><p>Integração entre negócio, sistemas, dados, automação, backoffice, fornecedores e operação.</p></article>
+        <article><span>05</span><h3>Business Planning</h3><p>Modelos financeiros, cenários, CAPEX/OPEX, caixa, capital, sensitivities, VPL, TIR, payback e decisões de investimento.</p></article>
+        <article><span>06</span><h3>PMO executivo</h3><p>Programas multidisciplinares com múltiplas frentes, dependências, riscos, decisões e stakeholders executivos.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-navy team-section" id="equipe">
+      <div class="container section-heading inverse">
+        <div><span class="eyebrow">EQUIPE</span><h2>Liderança multidisciplinar com experiência executiva aplicada.</h2></div>
+        <p>As imagens são apresentadas sem texto ou interferência visual. Cargos, responsabilidades e competências permanecem em blocos separados para preservar legibilidade e consistência.</p>
+      </div>
+      <div class="container team-grid">
+        <article class="person-card wellington-card">
+          <div class="portrait"><img src="assets/wellington.png" alt="Wellington Mendes" /></div>
+          <div class="person-copy"><h3>Wellington Mendes</h3><p class="role">Sócio Fundador • Diretor Comercial e Técnico • PMO Global</p><p>Mais de 10 anos em seguros, resseguros, consórcios, produtos, subscrição, riscos, sinistros, dados e modelagem executiva. Lidera a integração global dos projetos e o relacionamento executivo.</p></div>
         </article>
-        <div class="capability-stack">
-          <div class="cap-row"><b>01</b><span><strong>PMO Global</strong> — governança, decisões, cronograma, riscos e integração das frentes.</span></div>
-          <div class="cap-row"><b>02</b><span><strong>Jurídico & Regulatório</strong> — societário, controles, dossiê e interlocução técnica.</span></div>
-          <div class="cap-row"><b>03</b><span><strong>Financeiro & Capital</strong> — BP, projeções, capital regulatório, runway e sustentabilidade.</span></div>
-          <div class="cap-row"><b>04</b><span><strong>Tecnologia & Operação</strong> — core, integrações, dados, processos, fornecedores e prontidão.</span></div>
-          <div class="cap-row"><b>05</b><span><strong>Estratégia & Produtos</strong> — modelo de negócio, portfólio, canais, público-alvo e lançamento.</span></div>
+        <article class="person-card pending-photo">
+          <div class="portrait portrait-placeholder" aria-label="Foto de Jayme Akito Umehara em atualização"><span>JA</span></div>
+          <div class="person-copy"><h3>Jayme Akito Umehara</h3><p class="role">Assessor Comercial • PMO Tecnológico</p><p>Mais de 30 anos em operações de seguros, gestão de TI e transformação digital, com foco em arquitetura, integrações, dados, automação e conexão entre tecnologia e operação.</p><small>Foto institucional aguardando arquivo original para evitar uso de imagem genérica ou identificação incorreta.</small></div>
+        </article>
+        <article class="person-card">
+          <div class="portrait"><img src="assets/silvana.png" alt="Dra. Silvana Simões Pessoa" /></div>
+          <div class="person-copy"><h3>Dra. Silvana Simões Pessoa</h3><p class="role">Jurídico • Regulatório • Governança</p><p>Advogada, conselheira e presidente da ABAEC, com experiência executiva em administradoras, controles, BPO, auditoria de processos e projetos regulados.</p></div>
+        </article>
+        <article class="person-card">
+          <div class="portrait"><img src="assets/carlos.png" alt="Carlos Pereira Monteiro" /></div>
+          <div class="person-copy"><h3>Carlos Pereira Monteiro</h3><p class="role">Financeiro • Contábil • Capital</p><p>Mais de 35 anos no segmento de consórcios, com atuação como diretor financeiro e auditor contábil, apoiando projeções, capital, controles e sustentação financeira.</p></div>
+        </article>
+        <article class="person-card">
+          <div class="portrait"><img src="assets/luciana.png" alt="Luciana Rabello" /></div>
+          <div class="person-copy"><h3>Luciana Rabello</h3><p class="role">Governança • Projetos</p><p>Experiência em projetos do setor público para o Banco Mundial, com foco em planejamento, responsabilidades, cronograma, dependências e gestão de entregáveis.</p></div>
+        </article>
+        <article class="person-card">
+          <div class="portrait"><img src="assets/thalita.png" alt="Thalita Ligeiro" /></div>
+          <div class="person-copy"><h3>Thalita Ligeiro</h3><p class="role">Estratégia • Produtos</p><p>Mais de 18 anos em produtos digitais, estratégia organizacional e liderança, conectando modelo de negócio, portfólio, posicionamento e público-alvo.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-light" id="contratacao">
+      <div class="container section-heading">
+        <div><span class="eyebrow">MODELOS DE ATUAÇÃO</span><h2>A estrutura de contratação acompanha a natureza do problema.</h2></div>
+        <p>A Astrion pode operar desde uma frente consultiva específica até a liderança integrada de um programa de implantação.</p>
+      </div>
+      <div class="container engagement-grid">
+        <article><span>01</span><h3>Advisory Executivo</h3><p>Análise, desenho, recomendação e apoio à decisão para temas estratégicos ou técnicos específicos.</p></article>
+        <article><span>02</span><h3>Projeto Estruturado</h3><p>Escopo definido, entregáveis, marcos, responsáveis e critérios de aceite por fase.</p></article>
+        <article><span>03</span><h3>PMO Integrador</h3><p>Coordenação transversal entre áreas, especialistas, fornecedores, decisões e dependências do programa.</p></article>
+        <article><span>04</span><h3>BPO & Operação Assistida</h3><p>Execução continuada, processos, indicadores, controles, SLAs e transferência gradual de capacidade.</p></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contato">
+      <div class="container contact-grid">
+        <div><span class="eyebrow">CONTATO</span><h2>Estratégia, estrutura técnica e execução integradas para negócios de alta complexidade.</h2></div>
+        <div class="contact-card">
+          <img src="assets/astrion-logo.png" alt="Astrion Assessoria" />
+          <p>Para projetos institucionais, novos negócios, implantação, transformação operacional ou integração de frentes.</p>
+          <a href="https://assessoria.astrion360.com.br/">assessoria.astrion360.com.br</a>
         </div>
       </div>
-      <div class="proof-strip">
-        <div><small>MODELO</small><b>Multidisciplinar</b></div>
-        <div><small>ATUAÇÃO</small><b>Ponta a ponta</b></div>
-        <div><small>GOVERNANÇA</small><b>C-Level + PMO</b></div>
-        <div><small>ENTREGA</small><b>Decisão + execução</b></div>
-      </div>
-      <footer class="slide-footer"><span>Institucional</span><span>02</span></footer>
-    </section>
-
-    <!-- 03 DIFERENCIAIS -->
-    <section class="slide dark" id="diferenciais" data-index="03">
-      <div class="section-head inverse">
-        <div><span class="eyebrow gold">DIFERENCIAIS</span><h2>O valor está na integração entre profundidade técnica e capacidade de execução.</h2></div>
-        <p class="lead">A estrutura de trabalho foi desenhada para reduzir perda de informação entre disciplinas, acelerar decisões e manter rastreabilidade executiva do projeto.</p>
-      </div>
-      <div class="six-grid">
-        <article class="feature"><span class="num">01</span><h3>Profundidade técnica</h3><p>Consórcios, seguros, resseguros, riscos, capital, dados, regulação e operação.</p></article>
-        <article class="feature"><span class="num">02</span><h3>Experiência executiva</h3><p>Profissionais com trajetória em posições técnicas e de liderança em serviços financeiros.</p></article>
-        <article class="feature"><span class="num">03</span><h3>Governança premium</h3><p>PMO, fóruns decisórios, matriz de responsabilidades, critérios de aceite e reporte C-Level.</p></article>
-        <article class="feature"><span class="num">04</span><h3>Execução regulatória</h3><p>Planejamento societário, dossiê, políticas, controles e acompanhamento do processo de autorização.</p></article>
-        <article class="feature"><span class="num">05</span><h3>Integração de frentes</h3><p>Financeiro, tecnologia, produtos, jurídico e operação trabalham sobre uma arquitetura única.</p></article>
-        <article class="feature"><span class="num">06</span><h3>Estruturação ponta a ponta</h3><p>Do diagnóstico inicial à estabilização e transferência da operação para o cliente.</p></article>
-      </div>
-      <footer class="slide-footer inverse"><span>Astrion Assessoria</span><span>03</span></footer>
-    </section>
-
-    <!-- 04 FRAMEWORK -->
-    <section class="slide light framework" id="framework" data-index="04">
-      <div class="section-head">
-        <div><span class="eyebrow">FRAMEWORK ASTRION</span><h2>Do “go” à operação: 12 etapas coordenadas por uma governança única.</h2></div>
-        <p class="lead">O cronograma de implantação é gerenciável; a decisão regulatória é independente. A metodologia separa explicitamente os dois relógios.</p>
-      </div>
-      <div class="journey">
-        <div class="journey-phase"><span class="phase-tag">FASE 1 • FUNDAMENTAÇÃO</span>
-          <div class="journey-steps">
-            <div class="step"><b>01</b><strong>Diagnóstico</strong><small>Ambição, dados, estrutura existente e gaps.</small></div>
-            <div class="step"><b>02</b><strong>Arquitetura</strong><small>Modelo operacional, governança e desenho-alvo.</small></div>
-            <div class="step"><b>03</b><strong>Business Plan</strong><small>Receitas, custos, capital, caixa e cenários.</small></div>
-            <div class="step"><b>04</b><strong>Viabilidade</strong><small>Riscos, sensitivities, break-even e decisão.</small></div>
-          </div>
-        </div>
-        <div class="journey-phase"><span class="phase-tag">FASE 2 • ESTRUTURAÇÃO</span>
-          <div class="journey-steps">
-            <div class="step"><b>05</b><strong>Jurídico</strong><small>Societário, contratos, políticas e controles.</small></div>
-            <div class="step"><b>06</b><strong>Financeiro</strong><small>Capital, contabilidade, tesouraria e rotinas.</small></div>
-            <div class="step"><b>07</b><strong>Tecnologia</strong><small>Core, integrações, dados, segurança e canais.</small></div>
-            <div class="step"><b>08</b><strong>Operação</strong><small>Processos, SLAs, pessoas, fornecedores e testes.</small></div>
-          </div>
-        </div>
-        <div class="journey-phase"><span class="phase-tag">FASE 3 • AUTORIZAÇÃO & GO-LIVE</span>
-          <div class="journey-steps">
-            <div class="step"><b>09</b><strong>Dossiê regulatório</strong><small>Consolidação, coerência e protocolo.</small></div>
-            <div class="step"><b>10</b><strong>Implantação</strong><small>Build, configuração, integrações e prontidão.</small></div>
-            <div class="step"><b>11</b><strong>Estabilização</strong><small>Hypercare, indicadores, controles e ajustes.</small></div>
-            <div class="step"><b>12</b><strong>Transferência</strong><small>Knowledge transfer e governança permanente.</small></div>
-          </div>
-        </div>
-      </div>
-      <footer class="slide-footer"><span>Framework de implantação</span><span>04</span></footer>
-    </section>
-
-    <!-- 05 GOVERNANÇA DO FRAMEWORK -->
-    <section class="slide graphite" id="controle" data-index="05">
-      <div class="section-head inverse">
-        <div><span class="eyebrow gold">CONTROLE EXECUTIVO</span><h2>Cada etapa nasce com marcos, riscos, dependências e critérios de aceite definidos.</h2></div>
-        <p class="lead">O projeto é administrado por evidência. O avanço de fase depende de entregáveis verificáveis, decisões registradas e prontidão mínima acordada.</p>
-      </div>
-      <div class="control-matrix">
-        <div class="control-card"><span>01</span><h3>Marcos</h3><p>Mobilização, arquitetura aprovada, BP validado, dossiê apto, readiness e go-live.</p></div>
-        <div class="control-card"><span>02</span><h3>Riscos</h3><p>Regulatório, capital, tecnologia, dados, fornecedores, pessoas, prazo e dependências internas.</p></div>
-        <div class="control-card"><span>03</span><h3>Dependências</h3><p>Decisões do sponsor, documentação, integrações, contratações, aprovações e resposta do regulador.</p></div>
-        <div class="control-card"><span>04</span><h3>Critérios de aceite</h3><p>Completude, consistência, teste, evidência, aprovação do responsável e aderência à arquitetura.</p></div>
-        <div class="control-card"><span>05</span><h3>Indicadores</h3><p>% entregáveis no prazo, riscos críticos, decisões pendentes, readiness, burn-rate e variação de orçamento.</p></div>
-        <div class="control-card"><span>06</span><h3>Governança</h3><p>SteerCo, PMO Global, líderes de frente, rito semanal, reporte executivo e issue escalation.</p></div>
-      </div>
-      <div class="governance-flow"><span>Sponsor do Cliente</span><i></i><span>Steering Committee</span><i></i><strong>PMO GLOBAL ASTRION</strong><i></i><span>Líderes de Frente</span><i></i><span>Squads / Fornecedores</span></div>
-      <footer class="slide-footer inverse"><span>Governança de execução</span><span>05</span></footer>
-    </section>
-
-    <!-- 06 REFERÊNCIAS -->
-    <section class="slide light" id="referencias" data-index="06">
-      <div class="section-head">
-        <div><span class="eyebrow">REFERÊNCIAS • NDA-FRIENDLY</span><h2>Experiência aplicável sem exposição de informações confidenciais.</h2></div>
-        <p class="lead">A narrativa institucional preserva nomes, dados sensíveis e particularidades contratuais. Evidências detalhadas podem ser apresentadas em ambiente controlado.</p>
-      </div>
-      <div class="reference-grid">
-        <article><span class="ref-icon">BCB</span><h3>Projetos autorizados</h3><p>Experiência jurídica e regulatória em projetos que obtiveram autorização do Banco Central.</p></article>
-        <article><span class="ref-icon">PMO</span><h3>Implantação integrada</h3><p>Arquitetura de trabalho cobrindo múltiplas áreas, processos, controles e fornecedores.</p></article>
-        <article><span class="ref-icon">CORE</span><h3>Tecnologia & integrações</h3><p>Desenho de core, arquitetura de integração, dados, automação, canais e governança tecnológica.</p></article>
-        <article><span class="ref-icon">PROD</span><h3>Produtos & risco</h3><p>Desenvolvimento de produtos massificados, subscrição, precificação, crédito e riscos individuais.</p></article>
-        <article><span class="ref-icon">RE</span><h3>Resseguros</h3><p>Estruturação, negociação, monitoramento e recuperação em programas de resseguro de seguradoras relevantes.</p></article>
-        <article><span class="ref-icon">EXEC</span><h3>Experiência executiva</h3><p>Trajetórias em seguradoras, consórcios, auditoria, jurídico, produtos, tecnologia e projetos complexos.</p></article>
-      </div>
-      <div class="nda-note"><b>Escala operacional:</b> a metodologia é desenhada para suportar operações com milhares de cotas e múltiplas integrações. Quantitativos de cases específicos permanecem sob confidencialidade e validação para uso externo.</div>
-      <footer class="slide-footer"><span>Referências institucionais</span><span>06</span></footer>
-    </section>
-
-    <!-- 07 WELLINGTON -->
-    <section class="slide profile profile-wellington" id="equipe" data-index="07">
-      <div class="profile-photo"><img src="assets/wellington.png" alt="Wellington Mendes" /></div>
-      <div class="profile-body">
-        <span class="eyebrow">LIDERANÇA • ASTRION</span>
-        <h2>Wellington Mendes</h2>
-        <p class="profile-role">Sócio Fundador • Diretor Técnico • PMO Global</p>
-        <p class="profile-intro">Especialista executivo em seguros, resseguros, cosseguros, consórcios e inteligência de negócios, com mais de 10 anos de experiência consolidada em estruturas técnicas, analytics e projetos regulados.</p>
-        <div class="profile-columns">
-          <div><h4>Experiência</h4><p>Trajetória em Bradesco Seguros, Caixa Seguradora, CNP Seguros Holding Brasil e CNP Seguradora, com atuação em resseguro, subscrição, precificação, produtos, sinistros, crédito e dados.</p></div>
-          <div><h4>Papel nos projetos</h4><p>Liderança global do PMO; integração das frentes; governança executiva; Business Plan; riscos e dependências; relacionamento com o sponsor e condução institucional.</p></div>
-        </div>
-        <div class="skill-tags"><span>Resseguro</span><span>Subscrição</span><span>Consórcios</span><span>Modelagem financeira</span><span>BI & Dados</span><span>PMO Global</span></div>
-      </div>
-      <footer class="slide-footer"><span>Equipe executiva</span><span>07</span></footer>
-    </section>
-
-    <!-- 08 JAYME -->
-    <section class="slide profile profile-tech profile-jayme" data-index="08">
-      <div class="profile-monogram" aria-label="Jayme Akito Umehara"><span>JA</span><div class="circuit"></div></div>
-      <div class="profile-body">
-        <span class="eyebrow">LIDERANÇA • ASTRION</span>
-        <h2>Jayme Akito Umehara</h2>
-        <p class="profile-role">PMO Tecnológico • Arquitetura & Integrações</p>
-        <p class="profile-intro">Executivo com trajetória consolidada na conexão entre arquitetura de sistemas, integrações, dados, automação e operação em projetos complexos.</p>
-        <div class="profile-columns">
-          <div><h4>Frente tecnológica</h4><p>Arquitetura de sistemas, integrações, dados e BI, automação, backoffice, canais digitais e governança de fornecedores tecnológicos.</p></div>
-          <div><h4>Papel nos projetos</h4><p>PMO tecnológico; tradução dos requisitos do negócio em arquitetura executável; gestão de dependências técnicas e conexão entre tecnologia, controles e operação.</p></div>
-        </div>
-        <div class="skill-tags"><span>Arquitetura</span><span>Integrações</span><span>Dados & BI</span><span>Automação</span><span>Backoffice</span><span>PMO Tech</span></div>
-        <small class="source-note">Foto institucional em atualização. O layout utiliza monograma para preservar consistência visual, sem recorrer a imagem genérica.</small>
-      </div>
-      <footer class="slide-footer"><span>Equipe executiva</span><span>08</span></footer>
-    </section>
-
-    <!-- 09 SILVANA -->
-    <section class="slide profile profile-silvana" data-index="09">
-      <div class="profile-photo"><img src="assets/silvana.png" alt="Dra. Silvana Simões Pessoa" /></div>
-      <div class="profile-body">
-        <span class="eyebrow">LIDERANÇA TÉCNICA • ASTRION</span>
-        <h2>Dra. Silvana Simões Pessoa</h2>
-        <p class="profile-role">Jurídico • Regulatório • Governança</p>
-        <p class="profile-intro">Advogada, CEO, conselheira e presidente da ABAEC; integrante do Comitê Jurídico da ABAC e ex-executiva de administradora de consórcios.</p>
-        <div class="profile-columns">
-          <div><h4>Experiência</h4><p>Defesa de administradoras, BPO, auditoria de processos internos e experiência prática na frente jurídica e regulatória de projetos autorizados pelo Banco Central.</p></div>
-          <div><h4>Papel nos projetos</h4><p>Estrutura societária, contratos, governança, controles, prevenção de riscos, dossiê regulatório e acompanhamento das etapas do processo de autorização.</p></div>
-        </div>
-        <div class="skill-tags"><span>Banco Central</span><span>Societário</span><span>Compliance</span><span>Governança</span><span>Controles</span><span>Dossiê regulatório</span></div>
-      </div>
-      <footer class="slide-footer"><span>Equipe executiva</span><span>09</span></footer>
-    </section>
-
-    <!-- 10 CARLOS -->
-    <section class="slide profile profile-carlos" data-index="10">
-      <div class="profile-photo"><img src="assets/carlos.png" alt="Carlos Pereira Monteiro" /></div>
-      <div class="profile-body">
-        <span class="eyebrow">LIDERANÇA TÉCNICA • ASTRION</span>
-        <h2>Carlos Pereira Monteiro</h2>
-        <p class="profile-role">Financeiro • Contábil • Capital</p>
-        <p class="profile-intro">Profissional com mais de 35 anos de experiência no segmento de consórcios, com atuação como diretor financeiro e auditor contábil.</p>
-        <div class="profile-columns">
-          <div><h4>Experiência</h4><p>Avaliação financeira, estruturação contábil, auditoria, controles e sustentação econômico-financeira de operações de consórcio.</p></div>
-          <div><h4>Papel nos projetos</h4><p>Projeções econômico-financeiras, planejamento de capital, consistência das informações, desenho de rotinas contábeis e controles para operação.</p></div>
-        </div>
-        <div class="skill-tags"><span>Capital</span><span>Contabilidade</span><span>Auditoria</span><span>Projeções</span><span>Controles</span><span>Sustentação</span></div>
-      </div>
-      <footer class="slide-footer"><span>Equipe executiva</span><span>10</span></footer>
-    </section>
-
-    <!-- 11 LUCIANA -->
-    <section class="slide profile profile-luciana" data-index="11">
-      <div class="profile-photo"><img src="assets/luciana.png" alt="Luciana Rabello" /></div>
-      <div class="profile-body">
-        <span class="eyebrow">LIDERANÇA TÉCNICA • ASTRION</span>
-        <h2>Luciana Rabello</h2>
-        <p class="profile-role">Governança • Projetos • Entregáveis</p>
-        <p class="profile-intro">Profissional com mais de oito anos de atuação em projetos do setor público para o Banco Mundial.</p>
-        <div class="profile-columns">
-          <div><h4>Experiência</h4><p>Planejamento, organização de frentes, acompanhamento de entregas e conexão entre governança e gestão de projetos.</p></div>
-          <div><h4>Papel nos projetos</h4><p>Definição de responsabilidades, cronograma, dependências, critérios de aceite, acompanhamento de entregáveis e organização dos ritos de governança.</p></div>
-        </div>
-        <div class="skill-tags"><span>Governança</span><span>Cronograma</span><span>Dependências</span><span>Entregáveis</span><span>Riscos</span><span>Ritos executivos</span></div>
-      </div>
-      <footer class="slide-footer"><span>Equipe executiva</span><span>11</span></footer>
-    </section>
-
-    <!-- 12 THALITA -->
-    <section class="slide profile profile-thalita" data-index="12">
-      <div class="profile-photo"><img src="assets/thalita.png" alt="Thalita Ligeiro" /></div>
-      <div class="profile-body">
-        <span class="eyebrow">LIDERANÇA TÉCNICA • ASTRION</span>
-        <h2>Thalita Ligeiro</h2>
-        <p class="profile-role">Estratégia • Produtos • Modelo de Negócio</p>
-        <p class="profile-intro">Executiva com mais de 18 anos de experiência em gestão de produtos digitais, estratégia organizacional e liderança.</p>
-        <div class="profile-columns">
-          <div><h4>Experiência</h4><p>Diretora da Board Academy, conselheira, palestrante e professora de MBA e pós-graduação, com experiência executiva e atuação em conselhos.</p></div>
-          <div><h4>Papel nos projetos</h4><p>Modelo de negócio, posicionamento, portfólio de produtos, público-alvo, proposta de valor e alinhamento entre estratégia, viabilidade e capacidade operacional.</p></div>
-        </div>
-        <div class="skill-tags"><span>Estratégia</span><span>Produtos</span><span>Portfólio</span><span>Posicionamento</span><span>Público-alvo</span><span>Proposta de valor</span></div>
-      </div>
-      <footer class="slide-footer"><span>Equipe executiva</span><span>12</span></footer>
-    </section>
-
-    <!-- 13 RACI -->
-    <section class="slide light" id="governanca" data-index="13">
-      <div class="section-head compact">
-        <div><span class="eyebrow">MATRIZ RACI</span><h2>Responsabilidade clara, decisão rápida e nenhuma zona cinzenta.</h2></div>
-        <div class="legend"><span><b>R</b> Responsável</span><span><b>A</b> Accountable</span><span><b>C</b> Consultado</span><span><b>I</b> Informado</span></div>
-      </div>
-      <div class="table-wrap raci-wrap">
-        <table class="premium-table raci">
-          <thead><tr><th>Frente / Entrega</th><th>Wellington<br><small>PMO Global</small></th><th>Jayme<br><small>Tech</small></th><th>Silvana<br><small>Jur/Reg</small></th><th>Carlos<br><small>Fin/Cont</small></th><th>Luciana<br><small>Gov.</small></th><th>Thalita<br><small>Prod.</small></th><th>Cliente</th></tr></thead>
-          <tbody>
-            <tr><td>PMO & governança global</td><td class="a">A/R</td><td>C</td><td>C</td><td>C</td><td>R</td><td>I</td><td>A/C</td></tr>
-            <tr><td>Jurídico & regulatório</td><td>A</td><td>I</td><td class="r">R</td><td>C</td><td>C</td><td>C</td><td>A/C</td></tr>
-            <tr><td>Financeiro & capital</td><td>A</td><td>I</td><td>C</td><td class="r">R</td><td>C</td><td>C</td><td>A/C</td></tr>
-            <tr><td>Produtos & estratégia</td><td>A</td><td>C</td><td>C</td><td>C</td><td>C</td><td class="r">R</td><td>A/C</td></tr>
-            <tr><td>Tecnologia & integrações</td><td>A</td><td class="r">R</td><td>C</td><td>C</td><td>C</td><td>C</td><td>A/C</td></tr>
-            <tr><td>Operação & processos</td><td class="a">A</td><td>C</td><td>C</td><td>C</td><td>R</td><td>C</td><td>R/A</td></tr>
-            <tr><td>Dossiê de autorização</td><td>A</td><td>C</td><td class="r">R</td><td>R</td><td>C</td><td>C</td><td>A/R</td></tr>
-            <tr><td>Readiness & go-live</td><td class="a">A/R</td><td>R</td><td>C</td><td>C</td><td>R</td><td>R</td><td>A/R</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="table-note">Matriz-base. A versão contratual é adaptada à estrutura do cliente, ao escopo e às responsabilidades regulatórias específicas.</p>
-      <footer class="slide-footer"><span>Governança e responsabilidades</span><span>13</span></footer>
-    </section>
-
-    <!-- 14 PRÓPRIA VS WL -->
-    <section class="slide dark" id="modelos" data-index="14">
-      <div class="section-head inverse compact">
-        <div><span class="eyebrow gold">MODELOS DE ENTRADA</span><h2>Administradora própria e white label resolvem problemas diferentes.</h2></div>
-        <p class="lead">A comparação deve separar velocidade de entrada, autonomia, captura econômica, dependência, flexibilidade estratégica e investimento.</p>
-      </div>
-      <div class="table-wrap dark-table-wrap">
-        <table class="premium-table comparison">
-          <thead><tr><th>Dimensão</th><th>Administradora própria</th><th>White label</th></tr></thead>
-          <tbody>
-            <tr><td>Estrutura</td><td>Sociedade própria, autorização e capacidade operacional compatível.</td><td>Uso de administradora parceira autorizada, com responsabilidades contratadas.</td></tr>
-            <tr><td>Autonomia</td><td><strong>Alta.</strong> Maior controle sobre produto, processo, fornecedor, canal e decisão.</td><td><strong>Condicionada.</strong> Limites do portfólio, core e regras negociadas com a parceira.</td></tr>
-            <tr><td>Time-to-market</td><td>Depende da implantação e do processo regulatório.</td><td>Pode ser menor ao utilizar infraestrutura existente.</td></tr>
-            <tr><td>Economia</td><td>Receitas e custos da administradora integram o negócio próprio.</td><td>Comissões, taxas e margens dependem do contrato de parceria.</td></tr>
-            <tr><td>Capital & investimento</td><td>Requer capital, implantação, sistemas, pessoas e sustentação.</td><td>Menor CAPEX inicial; maior dependência econômica e operacional.</td></tr>
-            <tr><td>Risco de dependência</td><td>Fornecedores escolhidos + capacidade interna de execução.</td><td>Parceira, continuidade contratual, dados, SLAs e estratégia de saída.</td></tr>
-            <tr><td>Ativo estratégico</td><td>Cria plataforma própria, dados, governança, portfólio e opcionalidade.</td><td>Cria canal/distribuição sem transferir a autorização regulatória.</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <footer class="slide-footer inverse"><span>Arquitetura de modelo de negócio</span><span>14</span></footer>
-    </section>
-
-    <!-- 15 INVESTIMENTO -->
-    <section class="slide light" id="investimento" data-index="15">
-      <div class="section-head">
-        <div><span class="eyebrow">INVESTIMENTO INDICATIVO</span><h2>Separar implantação, capital e sustentação evita decisões com base em um único número.</h2></div>
-        <p class="lead">Cenário de planejamento utilizado como referência executiva. Deve ser recalibrado após diagnóstico, arquitetura e definição do modelo operacional.</p>
-      </div>
-      <div class="investment-layout">
-        <div class="investment-breakdown">
-          <div class="inv-row"><span>Plataforma / core</span><b>R$ 1,2 mi</b></div>
-          <div class="inv-row"><span>Integrações & arquitetura</span><b>R$ 0,8 mi</b></div>
-          <div class="inv-row"><span>Preparação pré-operacional</span><b>R$ 0,5 mi</b></div>
-          <div class="inv-row"><span>Assessoria, PMO & especialistas</span><b>R$ 6,0 mi</b></div>
-          <div class="inv-row"><span>Outros itens de implantação / contingência</span><b>R$ 2,5 mi</b></div>
-        </div>
-        <div class="investment-summary">
-          <div class="big-number"><small>IMPLANTAÇÃO — CENÁRIO-BASE</small><strong>R$ 11,0 mi</strong><span>ordem de grandeza de planejamento</span></div>
-          <div class="mini-numbers"><div><small>CAPITAL INICIAL</small><b>R$ 4,0 mi</b></div><div><small>SUSTENTAÇÃO</small><b>BP / runway</b></div></div>
-        </div>
-      </div>
-      <div class="risk-banner"><b>Nota técnica.</b> Capital regulatório, capital prudencial e necessidade máxima de caixa são conceitos diferentes. O valor final depende do desenho societário, escala, cronograma, regras vigentes e curva operacional.</div>
-      <footer class="slide-footer"><span>Investimento e capital</span><span>15</span></footer>
-    </section>
-
-    <!-- 16 DECISÃO / PRINCÍPIOS -->
-    <section class="slide graphite" id="principios" data-index="16">
-      <div class="section-head inverse">
-        <div><span class="eyebrow gold">DISCIPLINA DE EXECUÇÃO</span><h2>O projeto só avança quando três dimensões estão simultaneamente prontas.</h2></div>
-        <p class="lead">Autorização não substitui prontidão operacional. Prontidão operacional não substitui capital. Capital não substitui governança.</p>
-      </div>
-      <div class="triad">
-        <div class="triad-node"><span>01</span><h3>Regulatório</h3><p>Dossiê, governança, controles, estrutura societária e evidências coerentes.</p></div>
-        <div class="triad-node central"><span>ASTRION</span><h3>PMO Global</h3><p>Integra decisões, riscos, dependências, orçamento, cronograma e critérios de aceite.</p></div>
-        <div class="triad-node"><span>02</span><h3>Operacional</h3><p>Processos, pessoas, sistemas, dados, fornecedores, SLAs, testes e canais.</p></div>
-        <div class="triad-node lower"><span>03</span><h3>Econômico-financeiro</h3><p>Capital, liquidez, runway, DRE, caixa, funding, controles e sustentabilidade.</p></div>
-      </div>
-      <footer class="slide-footer inverse"><span>Princípios de readiness</span><span>16</span></footer>
-    </section>
-
-    <!-- 17 FINAL -->
-    <section class="slide closing" id="fechamento" data-index="17">
-      <div class="closing-inner">
-        <img class="closing-logo" src="assets/astrion-logo.png" alt="Astrion Assessoria" />
-        <p class="closing-kicker">ESTRUTURAÇÃO EXECUTIVA • NEGÓCIOS REGULADOS</p>
-        <h2>“A Astrion transforma complexidade em operação regulada, com precisão técnica, governança e execução real.”</h2>
-        <div class="closing-rule"></div>
-        <div class="contact-grid">
-          <div><small>ATUAÇÃO</small><span>Estratégia • PMO • Jurídico • Financeiro • Tecnologia • Operação • Negócios regulados</span></div>
-          <div><small>MODELOS</small><span>Projeto estruturado • PMO Integrador • Advisory • BPO</span></div>
-          <div><small>CONTATO</small><span>assessoria.astrion360.com.br • institucional premium</span></div>
-        </div>
-      </div>
-      <footer class="slide-footer inverse"><span>ASTRION ASSESSORIA</span><span>17</span></footer>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><span>© 2026 Astrion Assessoria</span><span>Estratégia • Governança • Execução</span></div>
+  </footer>
 </body>
 </html>
